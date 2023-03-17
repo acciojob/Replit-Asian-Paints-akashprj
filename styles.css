@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.grid-item {
+  background-color: transparent;
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.selected {
+  background-color: red;
+}
